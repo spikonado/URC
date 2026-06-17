@@ -12,3 +12,7 @@ This is what the board can do:
 ## Graphics
 
 ![Render](./assets/URC.png)
+
+## Zine
+
+![Zine](./assets/zine.png)
