@@ -26,6 +26,13 @@ Before this board existed, to make a robot that has 4 motors, 2 robot arms, and 
 
 And even after all of this, it would still be a headache to get all of that working together and using ROS 2 with it.
 
+## Using the Board
+
+1. Connect a USB-C cable to one of the board's USB-C ports.
+2. If using the USB-CDC port, make sure to enable USB-CDC in Arduino IDE before trying to upload the firmware.
+3. Flash one of the [firmware examples](./firmware_examples/).
+4. Connect the board to the the peripherals you are using according to the wiring guide in the firmware examples.
+
 ## Zine
 
 ![Zine](./assets/zine.png)
