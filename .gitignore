@@ -31,6 +31,9 @@ fp-info-cache
 *.xml
 *.csv
 
+## Exported Gerber Files
+gerber/
+
 ## Local git-based history (KiCad 9.0+)
 .history
 
