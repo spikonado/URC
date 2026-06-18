@@ -29,3 +29,11 @@ And even after all of this, it would still be a headache to get all of that work
 ## Zine
 
 ![Zine](./assets/zine.png)
+
+## BOM
+
+| Name             | Price | Link                                                                                                            |
+| ---------------- | ----- | --------------------------------------------------------------------------------------------------------------- |
+| Manufactured PCB | ~150$ | [GitHub Release](https://github.com/spikonado/URC/releases/tag/v1.0.0)                                          |
+| ST-Link          | ~15$  | [Prayog India](https://www.prayogindia.in/product/st-link-v2-in-circuit-debugger-programmer-for-stm8-and-stm32) |
+|                  | ~165$ |                                                                                                                 |
