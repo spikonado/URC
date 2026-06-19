@@ -6062,7 +6062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic"
 			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6095,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0805FRE07120RL"
+		(property "MPN" "ERJ-PA2J101X"
 			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
