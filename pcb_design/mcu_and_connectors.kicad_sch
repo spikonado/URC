@@ -2635,172 +2635,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_TVS_Dual_AAC"
 			(pin_names
 				(offset 1.016)
@@ -5145,12 +4979,6 @@
 		(uuid "162f59f6-af4f-4a48-8fab-3390e5f7e008")
 	)
 	(junction
-		(at 204.47 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b06b86c-037f-415b-bd06-4e1cb501e0ce")
-	)
-	(junction
 		(at 25.4 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5181,12 +5009,6 @@
 		(uuid "384680b0-9579-4e89-8b34-483f4a49eb66")
 	)
 	(junction
-		(at 148.59 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "425196db-084c-46fd-8b5a-444c7fedec7a")
-	)
-	(junction
 		(at 229.87 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5211,12 +5033,6 @@
 		(uuid "58fed0ff-e7ba-4d43-b395-d886d5f071bb")
 	)
 	(junction
-		(at 139.7 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f3bc7e3-be27-404c-be7a-c40c8a72a621")
-	)
-	(junction
 		(at 130.81 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5227,12 +5043,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72e387e7-d763-4b0c-9453-cdd59066b270")
-	)
-	(junction
-		(at 196.85 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "772fb90c-4805-43cf-85a8-f6a7331ea079")
 	)
 	(junction
 		(at 187.96 25.4)
@@ -5247,6 +5057,12 @@
 		(uuid "7ab06e93-c62f-4f71-bc60-acfef88a1c53")
 	)
 	(junction
+		(at 196.85 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86eb86c9-1f9a-4ead-b5fd-42106fc02888")
+	)
+	(junction
 		(at 130.81 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5257,6 +5073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "970507e7-c885-41ec-b17f-0c3a100136c1")
+	)
+	(junction
+		(at 139.7 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a451994-226d-45d9-9f95-e402f06c56eb")
 	)
 	(junction
 		(at 196.85 43.18)
@@ -5325,12 +5147,6 @@
 		(uuid "d41d4358-5edd-45fe-b6cc-28ed3c2f8f78")
 	)
 	(junction
-		(at 148.59 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc001283-baf7-417a-8f53-47e960ae7c03")
-	)
-	(junction
 		(at 175.26 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5359,12 +5175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e8218b-7d72-4db9-bfd7-21bb0da3752a")
-	)
-	(junction
-		(at 204.47 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa9e0314-7797-410b-9f5d-798e6e870869")
 	)
 	(junction
 		(at 118.11 43.18)
@@ -5536,16 +5346,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 43.18) (xy 204.47 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12583af0-6e61-44a9-af14-e393c0a89cab")
-	)
-	(wire
-		(pts
 			(xy 245.11 72.39) (xy 250.19 72.39)
 		)
 		(stroke
@@ -5586,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 33.02) (xy 213.36 43.18)
+			(xy 205.74 33.02) (xy 205.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 156.21 43.18)
+			(xy 148.59 33.02) (xy 148.59 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 43.18) (xy 204.47 43.18)
+			(xy 196.85 43.18) (xy 205.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5816,16 +5616,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 25.4) (xy 148.59 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "319835b9-9b3a-4161-8114-936d77afecfd")
-	)
-	(wire
-		(pts
 			(xy 25.4 30.48) (xy 27.94 30.48)
 		)
 		(stroke
@@ -5853,16 +5643,6 @@
 			(type default)
 		)
 		(uuid "33fd2195-051d-4538-8686-d05a8ccaa3dd")
-	)
-	(wire
-		(pts
-			(xy 204.47 33.02) (xy 204.47 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e2374b-19b3-49d8-b87f-c8194d7f4715")
 	)
 	(wire
 		(pts
@@ -6486,16 +6266,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 25.4) (xy 204.47 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d38d5eb-3764-436b-8b44-b0621d35e111")
-	)
-	(wire
-		(pts
 			(xy 189.23 116.84) (xy 189.23 125.73)
 		)
 		(stroke
@@ -6503,16 +6273,6 @@
 			(type default)
 		)
 		(uuid "7e4222d9-b538-481e-ad6e-416a379d86c9")
-	)
-	(wire
-		(pts
-			(xy 148.59 33.02) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4c9f3f-6f28-4b81-8ca8-2cbad9dfd5d7")
 	)
 	(wire
 		(pts
@@ -6766,7 +6526,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 25.4) (xy 156.21 25.4)
+			(xy 139.7 25.4) (xy 148.59 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7096,7 +6856,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 25.4) (xy 213.36 25.4)
+			(xy 196.85 25.4) (xy 205.74 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7323,16 +7083,6 @@
 			(type default)
 		)
 		(uuid "ebc317db-6e50-435f-bf3b-a1f6eecd60cb")
-	)
-	(wire
-		(pts
-			(xy 156.21 43.18) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3ad236-9aa0-4dec-95c5-192f9991c881")
 	)
 	(wire
 		(pts
@@ -9278,109 +9028,6 @@
 			(project "URC"
 				(path "/20a8772b-fbba-42fc-9a8d-3f5fbeaa9563"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 204.47 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "159cfc01-f043-4ea3-92ff-eefd3029fddc")
-		(property "Reference" "D15"
-			(at 207.01 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF15CA"
-			(at 207.01 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 204.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/smf50a.pdf"
-			(at 204.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 204.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diotec Semiconductor"
-			(at 204.47 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMF15CA"
-			(at 204.47 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a006b88f-81b3-469a-b1e7-800632ed354f")
-		)
-		(pin "1"
-			(uuid "69a48875-9070-4a25-a0dd-0365ff695f8e")
-		)
-		(instances
-			(project "URC"
-				(path "/20a8772b-fbba-42fc-9a8d-3f5fbeaa9563"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -12286,7 +11933,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 213.36 29.21 270)
+		(at 205.74 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12296,7 +11943,7 @@
 		(dnp no)
 		(uuid "699fc925-321b-4e93-a0f9-b2b2788abbcd")
 		(property "Reference" "D16"
-			(at 215.9 27.6224 90)
+			(at 208.28 27.6224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12307,7 +11954,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 215.9 30.1624 0)
+			(at 208.28 30.1624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12318,7 +11965,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 213.36 29.21 0)
+			(at 205.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12329,7 +11976,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss19-d.pdf"
-			(at 213.36 29.21 0)
+			(at 205.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12340,7 +11987,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 213.36 29.21 0)
+			(at 205.74 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +11998,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 213.36 29.21 90)
+			(at 205.74 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +12009,7 @@
 			)
 		)
 		(property "MPN" "SS14"
-			(at 213.36 29.21 90)
+			(at 205.74 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14333,7 +13980,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 156.21 29.21 270)
+		(at 148.59 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14343,7 +13990,7 @@
 		(dnp no)
 		(uuid "a3d2b0cf-8917-45e7-bd38-7334c0a16be9")
 		(property "Reference" "D5"
-			(at 158.75 27.6224 90)
+			(at 151.13 27.6224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14354,7 +14001,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 158.75 30.1624 0)
+			(at 151.13 30.1624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14365,7 +14012,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 156.21 29.21 0)
+			(at 148.59 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14376,7 +14023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss19-d.pdf"
-			(at 156.21 29.21 0)
+			(at 148.59 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14034,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 156.21 29.21 0)
+			(at 148.59 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14398,7 +14045,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 156.21 29.21 90)
+			(at 148.59 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14409,7 +14056,7 @@
 			)
 		)
 		(property "MPN" "SS14"
-			(at 156.21 29.21 90)
+			(at 148.59 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15770,109 +15417,6 @@
 			(project "URC"
 				(path "/20a8772b-fbba-42fc-9a8d-3f5fbeaa9563"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 148.59 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cea8964d-52c7-44ce-9f19-c2d4bcc5ff73")
-		(property "Reference" "D4"
-			(at 151.13 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF15CA"
-			(at 151.13 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 148.59 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/smf50a.pdf"
-			(at 148.59 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 148.59 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diotec Semiconductor"
-			(at 148.59 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMF15CA"
-			(at 148.59 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "58f51b5c-690f-42be-9bf1-f5c11ecf3e6f")
-		)
-		(pin "1"
-			(uuid "55bdea97-95e9-40af-a63b-d51bfc16f083")
-		)
-		(instances
-			(project "URC"
-				(path "/20a8772b-fbba-42fc-9a8d-3f5fbeaa9563"
-					(reference "D4")
 					(unit 1)
 				)
 			)
