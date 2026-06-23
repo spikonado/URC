@@ -39,3 +39,12 @@ gerber/
 
 ## Local project settings
 *.kicad_prl
+
+# Nix
+.direnv
+
+# Zephyr
+.west/
+build/
+modules/
+zephyr/
